@@ -1,0 +1,130 @@
+@media screen and (max-width: 768px) {
+    /* General style */
+
+
+    .container-center{
+        padding: 0 5%;
+    }
+
+    .button{
+        padding: 12px 12px;
+        font-size: 85%;
+        background-color: #FFD2A4;
+        border-radius: 12px;
+        color: #0D0D0D;
+    }
+
+
+    /* Style for header */
+    .toggle{
+        display: inline-block;
+    }
+        /* nav */
+
+    .nav-list, .nav-button{
+        display: none;
+    }
+
+        /* home-header */
+
+    .home-header-content{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+
+    .heading h1{
+        padding-bottom: 2%;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .heading h2{
+        font-size: 230%;
+        line-height: 40px;
+        letter-spacing: -0.03em;
+    }
+
+    .home-header-content .button{
+        margin: 1.5% 0 3% 0;
+    }
+
+    .home-header-content .text-bottom{
+        font-size: 80%;
+        line-height: 15px;
+    }
+
+
+    /* Style for footer */
+    .content-footer{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .content-footer h2{
+        font-size: 140%;
+    }
+
+    .content-footer .connect a{
+        margin-right: 1em;
+    }
+
+    .content-footer .souscription p{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        margin-bottom: 0.5em;
+    }
+
+    .content-footer .souscription form{
+        border: 1px solid white;
+        border-radius: 12px;
+    }
+
+    .content-footer .souscription input[type="email"]{
+        background-color: inherit;
+        color: inherit;
+        padding-left: 1em;
+        font-size: 16px;
+        line-height: 24px;border: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 580px) {
+
+    /* home-header */
+
+    .home-header{
+        background-size: 102%;
+        background-position: top left;
+    }
+    .heading h1{
+        padding-bottom: 2%;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .heading h2{
+        font-size: 210%;
+    }
+
+    .home-header-content .button{
+        margin: 1.3% 0 2.6% 0;
+    }
+
+    .home-header-content .text-bottom{
+        font-size: 77%;
+        line-height: 15px;
+    }
+
+    /* Style for footer */
+
+    .content-footer .content-left{
+        margin-right: 15%;
+    }
+}

@@ -1,0 +1,272 @@
+/* General style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.relative{
+    position: relative;
+}
+
+.container-center{
+    padding: 0 6em;
+}
+
+.absolute-right{
+    position: absolute;
+    right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.bg-primary{
+    background-color: #FFD2A4;
+}
+
+.bg-secondary{
+    background-color: #161722;
+}
+
+.bg-dark{
+    background-color: #0D0D0D;
+}
+
+.button{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 24px 64px;
+    background-color: #FFD2A4;
+    border-radius: 12px;
+    color: #0D0D0D;
+}
+.button:hover{
+    background-color: #F2C79B;
+}
+
+.button-secondary{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    background-color: #161722;
+    color: #FFD2A4;
+    padding: 24px 64px;
+    border-radius: 12px;
+}
+.button-secondary:hover{
+    color: #FFF;
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: local("Roboto Condensed"), url("font/RobotoCondensed-Regular.ttf") format("truetype") ;
+}
+
+.display-ib{
+    display: inline-block;
+}
+
+.font-roboto-400-12-upper{
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.text-white{
+    color: #FFF;
+}
+
+.flex-sp-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-sp-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* Style for header */
+
+.toggle{
+    display: none;
+}
+    /* nav */
+
+
+.logo, .nav-list, .nav-button, .nav-list li{
+    display: inline-block;
+}
+
+.nav-list{
+    margin-left: 3em;
+    border-left: 1px solid white;
+}
+
+.nav-list li{
+    list-style-type: none;
+    padding: 2em 0 2em 3em;
+}
+
+.nav-list li a{
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: white;
+}
+
+.nav-button{
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 20px 48px;
+    background-color: #FFD2A4;
+    border-radius: 12px;
+    color: #0D0D0D;
+}
+
+.nav-button:hover{
+    background-color: #F2C79B;
+}
+
+
+
+    /* home-header */
+
+.home-header{
+    background-color: rgb(27, 44, 44);
+    background: url('img/pexels-arina-krasnikova-5418305.jpg') no-repeat center;
+    background-size: cover;
+
+}
+
+.home-header-content{
+    padding-top: 8.8em;
+    padding-bottom: 8.8em;
+}
+
+
+.heading h1{
+    padding-bottom: 1em;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-transform: uppercase;
+}
+
+.heading h2{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+
+.home-header-content .button{
+    margin: 2.5em 0 4em 0;
+    text-transform: uppercase;
+}
+
+.home-header-content .text-bottom{
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.home-header-content .text-bottom span{
+    color: #FFD2A4;
+    font-size: 2em;
+}
+
+
+/* Style for footer */
+.content-footer{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    flex-wrap: wrap;
+}
+
+.content-footer .content-left{
+    margin-right: 20%;
+}
+
+.content-footer .content-left .logo{
+    margin-bottom: 2em;
+}
+
+.content-footer .content-left p{
+    margin-top: 1.3em;
+}
+
+.content-footer h2{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding-bottom: 20%;
+}
+
+.content-footer li{
+    list-style-type: none;
+    padding-bottom: 35%;
+}
+
+.content-footer .connect{
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.content-footer .connect a{
+    margin-right: 2em;
+}
+
+.content-footer .souscription p{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.content-footer .souscription form{
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.content-footer .souscription input[type="email"]{
+    background-color: inherit;
+    color: inherit;
+    padding-left: 1em;
+    font-size: 16px;
+    line-height: 24px;border: none;
+}
