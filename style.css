@@ -206,6 +206,8 @@ a{
 .home-header-content .text-bottom span{
     color: #FFD2A4;
     font-size: 2em;
+    letter-spacing: -1.5px;
+    margin-right: 0.5em;
 }
 
 
@@ -257,16 +259,16 @@ a{
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
-
+/* 
 .content-footer .souscription form{
     border: 1px solid white;
     border-radius: 12px;
-}
+} */
 
-.content-footer .souscription input[type="email"]{
+/* .content-footer .souscription input[type="email"]{
     background-color: inherit;
     color: inherit;
     padding-left: 1em;
     font-size: 16px;
     line-height: 24px;border: none;
-}
+} */

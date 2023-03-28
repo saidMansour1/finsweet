@@ -73,9 +73,12 @@
         margin-bottom: 3em;
     }
 
+    .content-footer .connect .social{
+        flex-direction: row;
+    }
+
     .content-footer .connect a{
         margin-right: inherit;
-        margin-bottom: 1em;
     }
 
     .content-footer .souscription p{
